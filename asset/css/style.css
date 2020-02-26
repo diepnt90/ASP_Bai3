@@ -21,8 +21,19 @@
     background-color: #286FEC;
 }
 
+.banner>img:first-child{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+.banner__nav-list--item:first-child p{
+    font-size: 30px;
+    font-weight: 500;
+}
 .banner__nav{
-    height: 50px;
+    height: 60px;
     /* border: tan solid 2px; */
     display: flex;
     justify-content: space-between;
@@ -34,13 +45,12 @@
     list-style: none;
 }
 
+
 .banner__nav-list--item{
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
 }
 
-.banner__nav>banner__nav-list:first-child li:last-child{
-font-weight: 400;}
 
 .banner__content{
     height: 750px;
@@ -70,6 +80,7 @@ font-weight: 400;}
     font-weight: 500;
 }
 
+
 .banner__content-right--content p:last-child{
     font-size: 20px;
 }
@@ -86,7 +97,7 @@ font-weight: 400;}
 
 .feature{
     height: 200px;
-    border: coral solid 2px;
+    /* border: coral solid 2px; */
     background-color: #F7FAFF;
     display: flex;
     justify-content: space-around;
@@ -95,7 +106,7 @@ font-weight: 400;}
 .feature__box{
     height:196px;
     width: 400px;
-    border: springgreen solid 2px;
+    /* border: springgreen solid 2px; */
     display: flex;
 }
 .feature__box-image{
@@ -106,7 +117,7 @@ font-weight: 400;}
 }
 
 .feature__box-image img{
-    width: 200px;
+    width: 80x;
     height: 80px;
     margin: auto;
 }
@@ -139,4 +150,58 @@ font-weight: 400;}
 .feature>.feature__box:nth-child(2)> .feature__box-image img{
     width: 60px;
     height: 60px;
+}
+.banner__nav-list:first-child img{
+    width: 30px;
+    height: 30px;
+}
+
+.lastpage1{
+    /* border: coral solid 2px; */
+    height: 600px;
+    display: flex;
+}
+
+.lastpage1__left{
+    width: 800px;
+    height: 600px;
+    /* border: tan solid 2px; */
+    display: flex;
+}
+
+.lastpage1__left img{
+    height: 100px;
+    margin-top: 40px;
+    width: 240px;
+}
+
+.lastpage1__left p{
+    color: #333;
+}
+.lastpage1__left p:first-child{
+    font-size: 30px;
+}
+.lastpage1__left div{
+    margin: auto;
+}
+
+.lastpage1__left div p:nth-child(n+2){
+    margin-top: 10px;
+    width: 550px;
+}
+.lastpage1__right{
+    width: 800px;
+    height: 600px;
+    display: flex;
+}
+
+.lastpage1__right img{
+    margin: auto;
+    width: 500px;
+}
+.space{
+    margin: auto;
+    width: 1600px;
+    height: 10px;
+    background-color: black;
 }
