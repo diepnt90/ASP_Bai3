@@ -296,3 +296,101 @@ margin-top: 20px;
     height: 80px;
     margin-left: 40px;
 }
+
+.header p:first-child{
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.price{
+    width: 1600px;
+    height: 350px;
+    margin: auto;
+    /* border: rosybrown solid 2px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.price__box{
+    width: 400px;
+    height: 330px;
+    border: #333 solid 1px
+}
+.price__box-title p{
+    color: #333;
+    padding-left: 10px;
+    padding-top: 10xp;
+    padding-bottom: 5px;
+}
+.price__box-title div{
+    display: flex;
+}
+
+.price__box-title p:nth-child(1){
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price__box-title p:last-child{
+    padding-top: 4px;
+}
+
+.price__box-title{
+    background-color: #F7FAFF ;
+}
+
+.price__box-content{
+    height: 200px;
+    /* border: tomato solid 2px; */
+}
+.price__box-content ul{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.price__box-content>ul li{
+    margin: 10px;
+    color: #333;
+}
+.price__box-getstarted{
+    height: 40px;
+    display: flex;
+}
+.price__box-getstarted div{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    background-color: turquoise;
+    border-radius: 10px;
+}
+.price__box-getstarted div p{
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.subcribe{
+    width: 1600px;
+    height: 250px;
+    margin: auto;
+    border: tomato solid 1px;
+    display: flex;
+    background-image: url(https://www.splitshire.com/wp-content/uploads/2014/03/SplitShire_IMG_8441-1800x1200.jpg);
+    background-size: 1600px 250px;
+}
+.subcribe div p:first-child{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+.subcribe div p:last-child{
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+.subcribe div{
+    margin: auto;
+}
